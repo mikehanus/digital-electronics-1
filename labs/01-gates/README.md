@@ -91,16 +91,16 @@ GitHub is a code hosting platform for collaboration and version control. GitHub 
    $ git config --list
    ```
 
-3. Each computer exercise will be located in a separate folder, eg `01-gates` for the first exercise, `02-logic` for the second, `03-vivado` for the third, etc. Create a new working folder `labs/01-gates` for this exercise.
+4. Each computer exercise will be located in a separate folder, eg `01-gates` for the first exercise, `02-logic` for the second, `03-vivado` for the third, etc. Create a new working folder `labs/01-gates` for this exercise.
 
    ```bash
    ## Windows Git Bash or Linux:
    $ mkdir 01-gates
    ```
 
-4. Use your favorite text editor, such as VS Code, Notepad, etc. and create a new file `README.md` in your `01-gates/` folder. Copy/paste [report template](https://raw.githubusercontent.com/tomas-fryza/digital-electronics-1/master/labs/01-gates/report.md) to your `01-gates/README.md` file.
+5. Use your favorite text editor, such as VS Code, Notepad++, etc. and create a new file `README.md` in your `01-gates/` folder. Copy/paste [report template](https://raw.githubusercontent.com/tomas-fryza/digital-electronics-1/master/labs/01-gates/report.md) to your `01-gates/README.md` file.
 
-5. Synchronize the contents of your working folder with the local and remote repository. This way you are sure that you will not lose any of your changes. To do that, use git commands to add, commit, and push all local changes to your remote repository. Check GitHub web page for changes.
+6. Synchronize the contents of your working folder with the local and remote repository. This way you are sure that you will not lose any of your changes. To do that, use git commands to add, commit, and push all local changes to your remote repository. Check GitHub web page for changes.
 
    > **Help:** Useful git commands are `git status` - Get state of working directory and staging area. `git add` - Add new and modified files to the staging area. `git commit` - Record changes to the local repository. `git push` - Push changes to remote repository. `git pull` - Update local repository and working folder. Note that, a brief description of useful git commands can be found [here](https://github.com/tomas-fryza/digital-electronics-1/wiki/Useful-Git-commands) and detailed description of all commands is [here](https://github.com/joshnh/Git-Commands).
 
@@ -121,7 +121,11 @@ GitHub is a code hosting platform for collaboration and version control. GitHub 
 
 ## Part 3: EDA Playground
 
-1. EDA Playground is a cloud-based service that runs in your browser. Open the [Example of basic gates](https://www.edaplayground.com/x/5L92). Take a look at the basic parts of the VHDL source code, such as [entity](https://github.com/tomas-fryza/digital-electronics-1/wiki/Entity), [architecture](https://github.com/tomas-fryza/digital-electronics-1/wiki/Architecture), and testbench. Use button **Run** to run the simulation and log in to your account using **Log In (save edits)**.
+EDA Playground is a cloud-based service that runs in your browser.
+
+1. Log in to your [EDA Playground](https://www.edaplayground.com/login) account, open [Example of basic gates](https://www.edaplayground.com/x/5L92) project, use **Copy** button, and **Save** the project under a different name.
+
+2. Take a look at the basic parts of the VHDL source code, such as [entity](https://github.com/tomas-fryza/digital-electronics-1/wiki/Entity), [architecture](https://github.com/tomas-fryza/digital-electronics-1/wiki/Architecture), and testbench. Use button **Run** to run the simulation.
 
    Most common VHDL operators are shown in the table.
 
@@ -137,7 +141,7 @@ GitHub is a code hosting platform for collaboration and version control. GitHub 
    | `xnor` | Exclusive OR with negated output |
    | `-- comment` | Comments |
 
-2. Use De Morgan's laws and modify the following logic function to the form with NAND and NOR gates only. Verify all three functions in EDA Playground tool.
+3. Use De Morgan's laws and modify the following logic function to the form with NAND and NOR gates only. Verify all three functions in EDA Playground tool.
 
    ![Logic function](images/equations.png)
 
@@ -152,7 +156,7 @@ GitHub is a code hosting platform for collaboration and version control. GitHub 
    > ```
    >
 
-3. According to the simulation, complete the table with logic values.
+4. According to the simulation, complete the table with logic values.
 
    | **c** | **b** |**a** | **f_ORIG** | **f_(N)AND** | **f_(N)OR** |
    | :-: | :-: | :-: | :-: | :-: | :-: |

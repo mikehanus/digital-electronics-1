@@ -15,7 +15,7 @@
 After completing this lab you will be able to:
 
 * Use truth table, K-map, SoP/PoS forms of logic functions
-* Minimize logic function
+* Minimize logic functions
 * Understand signal assignments in VHDL
 * Use VHDL assertion statements for testing
 
@@ -81,7 +81,7 @@ When you start working, always synchronize the contents of your working folder a
    $ mkdir 02-logic
    ```
 
-3. Use your favorite text editor, such as VS Code, Notepad, etc. and create a new file `README.md` in your `02-logic/` folder. Copy/paste [report template](https://raw.githubusercontent.com/tomas-fryza/digital-electronics-1/master/labs/02-logic/report.md) to your `02-logic/README.md` file.
+3. Use your favorite text editor, such as VS Code, Notepad++, etc. and create a new file `README.md` in your `02-logic/` folder. Copy/paste [report template](https://raw.githubusercontent.com/tomas-fryza/digital-electronics-1/master/labs/02-logic/report.md) to your `02-logic/README.md` file.
 
 <a name="part2"></a>
 
@@ -169,7 +169,7 @@ The message is displayed to the console when the condition is NOT met, therefore
                 (s_B_less_A    = '0'))
         -- If false, then report an error
         -- If true, then do not report anything
-        report "Input combination 00, 00 FAILED" severity error;
+        report "Input combination b=0, a=0 FAILED" severity error;
 
 
         -- WRITE OTHER TEST CASES HERE
